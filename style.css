@@ -54,15 +54,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1f1f1f;
-    padding: 20px;
+    padding: 1rem;
     border-right: 1px solid #333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .projection-image {
     width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
+    border-radius: 1rem;
   }
   
   /* Vertical Video Grid */
@@ -93,6 +95,12 @@ body {
     padding: 10px;
     height: 80px;
     position: relative;
+  }
+
+  .video-tile img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
   }
   
   .video-tile:hover {
